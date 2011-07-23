@@ -26,7 +26,7 @@ def create(request):
         subject=u'Inscrição no EventeX',
         message=u'Obrigado por se inscrever no eventex!',
         from_email='contato@eventex.com',
-        recipient_list=['macndesign@gmail.com'],
+        recipient_list=['genarocolusso@gmail.com'],
     )
     
     return HttpResponseRedirect(
